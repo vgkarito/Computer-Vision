@@ -79,3 +79,38 @@ Todas las imágenes deben estar en formato JPG.
 Cada persona registrada debe tener su propia carpeta dentro de dataset_jpg.
 
 Se recomienda incluir varias fotos por persona para mejorar la precisión.
+
+## Cómo ejecutar el proyecto desde cero
+
+1. Clonar el repositorio:
+
+git clone https://github.com/vgkarito/Computer-Vision.git
+
+2. Entrar a la carpeta del proyecto:
+
+cd Computer-Vision
+
+3. Crear un entorno virtual:
+
+python3 -m venv .venv
+
+4. Activar el entorno virtual:
+
+Mac/Linux:
+source .venv/bin/activate
+
+Windows:
+.venv\Scripts\activate
+
+5. Instalar dependencias:
+
+pip install -r requirements.txt
+
+6. Colocar una imagen en:
+
+entrada/prueba_real.jpg
+
+7. Ejecutar el programa:
+
+python main.py
+
